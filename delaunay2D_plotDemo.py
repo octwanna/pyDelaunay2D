@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
     ###########################################################
     # Generate 'numSeeds' random seeds in a square of size 'radius'
-    numSeeds = 24
+    numSeeds = 240
     radius = 100
     seeds = radius * np.random.random((numSeeds, 2))
     print("seeds:\n", seeds)
